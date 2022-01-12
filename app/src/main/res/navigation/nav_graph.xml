@@ -10,4 +10,16 @@
         android:name="com.example.kotlin2lesson1.ui.fragments.DetailFragment"
         android:label="fragment_detail"
         tools:layout="@layout/fragment_detail" />
+
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.kotlin2lesson1.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/topNewsFragment"
+        android:name="com.example.kotlin2lesson1.TopNewsFragment"
+        android:label="fragment_top_news"
+        tools:layout="@layout/fragment_top_news" />
+
 </navigation>
